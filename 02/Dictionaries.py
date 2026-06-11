@@ -52,3 +52,16 @@ chai_type["Earl Grey"] = "Citrus"
 >>> chai_types
 {'Masala': 'Spicy', 'Ginger': 'Zesty', 'Earl Grey': 'Citrus'}
 
+
+squared_num = {x:x**2 for x in range(6)}
+>>> squared_num
+{0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+
+>>> keys = ["Masala","Ginger", "Lemon"]
+>>> keys
+['Masala', 'Ginger', 'Lemon']
+>>> default_value = "Delicious"
+>>> 
+>>> new_dict = dict.fromkeys(keys, default_value)
+>>> new_dict
+{'Masala': 'Delicious', 'Ginger': 'Delicious', 'Lemon': 'Delicious'}
